@@ -1,0 +1,11 @@
+echo "installing echo"
+go get "github.com/labstack/echo"
+echo "installing mongo"
+go get "gopkg.in/mgo.v2"
+echo "installing viper"
+go get "github.com/spf13/viper"
+echo "instaling jwt"
+go get "github.com/dgrijalva/jwt-go"
+echo "installing serial"
+go get "github.com/mikepb/go-serial"
+
