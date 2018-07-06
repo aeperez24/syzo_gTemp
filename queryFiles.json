@@ -1,0 +1,7 @@
+{"query":
+	{"mongo":
+		{"temperature":
+			{"dateStartDateEnd":"{\"date\":{$gt:\"$inicio\",$lt:\"$fin\"}}"}
+		}
+	}
+}
