@@ -1,0 +1,13 @@
+{
+	"port":":1323",
+	"seriaPort":"/dev/ttyUSB0",
+	"baudrate":9600,
+	"timeFormat":"2006-01-02 15:04 -0700",
+	"dayformat":"2006-01-02",
+	"databaseHost":"localhost",
+	"temperatureDatabaseInfo":{"database":"measurements","collectionName":"temperature"}
+	
+
+
+
+}
