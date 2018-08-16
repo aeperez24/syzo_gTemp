@@ -1,7 +1,14 @@
 {"query":
 	{"mongo":
 		{"temperature":
-			{"dateStartDateEnd":"{\"date\":{$gt:\"$inicio\",$lt:\"$fin\"}}"}
+			{"dateStartDateEnd":"{\"date\":{$gt:\"$inicio\",$lt:\"$fin\"}}",
+			"after":"{\"date\":{$gt:\"$inicio\"}}",
+			"before":"{\"date\":{$lt:\"$fin\"}}",
+			"higherTemperature":"{\"massurement\":{$gt:\"$baseMeassurement\"}}",
+			"lowerTemperature":"{\"massurement\":{$lt:\"$baseMeassurement\"}}"
+			
+
+		}
 		}
 	}
 }
